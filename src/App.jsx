@@ -4,7 +4,7 @@ import { Hero } from './components/Hero'
 import { Me } from './components/Me'
 import { Portfolio } from './components/Portfolio'
 import { Languages } from './components/Languages'
-// import { Footer } from './components/Footer'
+import { Footer } from './components/Footer'
 
 export const App = () => {
   return (
@@ -39,11 +39,11 @@ export const App = () => {
         </div>
       </div>
 
-      {/* <div>
+      <div>
         <div>
           <Footer/>
         </div>
-      </div> */}
+      </div>
 
 
     </div>

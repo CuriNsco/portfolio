@@ -15,7 +15,7 @@ export const Portfolio = () => {
         </span>
       </div>
 
-    <div className='flex flex-col pb-12 sm:flex sm:place-content-center sm:mt-12 sm:flex-row'>
+    <div className='flex flex-col pb-16 sm:flex sm:place-content-center sm:mt-12 sm:flex-row'>
 
       <div className={styles.workSize}>
         <img src={hoobank} alt="hoobank" className={`rounded rounded-2xl ${styles.hoverImage}`}/>
