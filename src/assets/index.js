@@ -5,6 +5,8 @@ import logofcefyn from './logofcefyn.png';
 import certificado from './certificado.jpg';
 import hoobank from './hoobank.png';
 import fiambreria from './fiambreria.png';
+import menu from './menu.svg';
+import close from './close.svg';
 
 
 export {
@@ -15,4 +17,6 @@ export {
     certificado,
     hoobank,
     fiambreria,
+    menu,
+    close,
 };

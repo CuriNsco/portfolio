@@ -1,5 +1,5 @@
 const styles ={
-    navbar: 'bg-[#f8f7f1] w-full flex py-6 justify-end px-12 border border-solid',
+    navbar: 'w-full flex py-6 justify-between items-center navbar bg-[#f8f7f1]',
     
     primaryText: 'text-5xl font-roboto font-bold text-[#0d2f3f]',
 

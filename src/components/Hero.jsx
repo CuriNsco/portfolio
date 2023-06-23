@@ -1,6 +1,9 @@
 import React from 'react'
 import {foto,unclogoo,mundose,logofcefyn} from "../assets";
 import styles from '../style'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+AOS.init();
 
 
 
