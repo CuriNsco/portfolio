@@ -1,5 +1,5 @@
 import React from 'react'
-// import { Navbar} from './components/Navbar'
+import { Navbar} from './components/Navbar'
 import { Hero } from './components/Hero'
 import { Me } from './components/Me'
 import { Portfolio } from './components/Portfolio'
@@ -9,11 +9,11 @@ import { Footer } from './components/Footer'
 export const App = () => {
   return (
     <div>
-      {/* <div>
+      <div>
         <div>
           <Navbar/>
         </div>
-      </div> */}
+      </div>
 
       <div>
         <div>

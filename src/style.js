@@ -9,6 +9,12 @@ const styles ={
 
     hoverImage: 'hover:shadow hover:shadow-3xl hover:scale-105',
 
+    animationLeft: 'animate-fade-right animate-once animate-duration-500 animate-ease-in',
+    
+    animationUp: 'animate-fade-up animate-once animate-duration-500 animate-ease-in',
+
+    animationRight: 'animate-fade-left animate-once animate-duration-500 animate-ease-in',
+
 }
 
 
