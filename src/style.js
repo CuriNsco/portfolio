@@ -15,6 +15,8 @@ const styles ={
 
     animationRight: 'animate-fade-left animate-once animate-duration-500 animate-ease-in',
 
+    animationHoverNavbar: 'hover:animate-jump animate-once animate-ease-out',
+
 }
 
 

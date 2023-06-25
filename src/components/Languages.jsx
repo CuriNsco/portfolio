@@ -6,7 +6,7 @@ import { languages } from './constants';
 export const Languages = () => {
   return (
     <section>
-        <div className='flex flex-col text-center mt-12 sm:flex sm:grid sm:grid-cols-5 sm:text-center sm:justify-center sm:items-center'>
+        <div className='flex flex-col text-center mt-12 sm:mt-4 sm:flex sm:grid sm:grid-cols-5 sm:text-center sm:justify-center sm:items-center'>
             <div className='sm:mt-12 sm:col-start-3'>
                 <span className= {`${styles.primaryText}`} id='languages'>
                 Languages
@@ -20,7 +20,7 @@ export const Languages = () => {
             <div className='mt-8 sm:col-start-1 sm:col-span-3 sm:mt-14'>
                 <div className='grid grid-cols-4 flex justify-items-center'>
                     {languages.map((foto) => (
-                        <img src={foto.imagen} alt="foto" className='w-[60px] my-2'/>
+                        <img src={foto.imagen} alt="foto" className='w-[60px] my-2' key={foto.id}/>
                     ))}
                 </div>
             </div>

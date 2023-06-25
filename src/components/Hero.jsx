@@ -10,10 +10,10 @@ AOS.init();
 export const Hero = () => {
   return (
     <section>
-        <div className={`grid grid-cols-3 grid-rows-1 bg-[#f8f7f1] sm:bg-[#f8f7f1] sm:grid sm:grid-cols-3`}>
+        <div className={`grid grid-cols-3 grid-rows-1 bg-[#f8f7f1] sm:flex sm:bg-[#f8f7f1] sm:grid sm:grid-cols-3`}>
             <div className='text-center flex flex-col justify-between col-span-3 sm:col-span-1 sm:bg-[#f8f7f1] sm:flex sm:flex-col sm:text-start sm:items-center sm:justify-center'>
 
-                <span className={`${styles.animationLeft} mt-20 pb-12 sm:mt-12 sm:ml-8 ${styles.primaryText}`}>Hey there,<br/> I'm Agustin</span>
+                <span className={`${styles.animationLeft} mt-20 pb-12 sm:flex sm:mt-12 sm:ml-8 ${styles.primaryText}`}>Hey there,<br/> I'm Agustin</span>
 
                 <span className={`${styles.animationLeft} invisible sm:visible sm:text-xl sm:font-roboto sm:text-start sm:text-yellow-500 sm:font-semibold`}>curiagus99@gmail.com</span>
 
@@ -28,11 +28,11 @@ export const Hero = () => {
 
                 <div className='flex flex-row gap-2 items-center px-4 mb-12 sm:flex sm:flew-row sm:gap-2 sm:pt-4 sm:pr-4 sm:mb-4'>
 
-                    <img src={unclogoo} alt="unc" className='w-[1000px] h-[50px] sm:w-[150px] sm:h-[60px]'/>
+                    <img src={unclogoo} alt="unc" className='w-[100px] h-[50px] sm:w-[150px] sm:h-[60px]'/>
 
-                    <img src={logofcefyn} alt="https://agrimensorescordoba.org.ar/wp-content/uploads/logo-fcefyn.png" className='w-[1000px] h-[50px] sm:w-[150px] sm:h-[60px]'/>
+                    <img src={logofcefyn} alt="https://agrimensorescordoba.org.ar/wp-content/uploads/logo-fcefyn.png" className='w-[100px] h-[50px] sm:w-[150px] sm:h-[60px]'/>
 
-                    <img src={mundose} alt="mundose" className='w-[1000px] h-[50px] sm:w-[150px] sm:h-[60px]' />
+                    <img src={mundose} alt="mundose" className='w-[100px] h-[50px] sm:w-[150px] sm:h-[60px]' />
 
                 </div>
             </div>

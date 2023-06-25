@@ -16,7 +16,7 @@ export const Navbar = () => {
               <li key={nav.id}
               className={`cursor-pointer ${active=== nav.title ? 'text-[$0d2f3f]' : 'text-[$0d2f3f]'} ${index === navLinks.length - 1 ? 'mr-0' : 'mr-10'}` } onClick={() => setActive(nav.title)}>
                 <a href={`#${nav.id}`}
-                className='sm:flex sm:px-2 sm:font-roboto sm:text-md sm:px-4 sm:text-[#0d2f3f] sm:font-[550] sm:mx-2 sm:my-4'>{nav.title}</a>
+                className={`sm:flex sm:px-2 sm:font-roboto sm:text-md sm:px-4 sm:text-[#0d2f3f] sm:font-[550] sm:mx-2 sm:my-4 ${styles.animationHoverNavbar}`}>{nav.title}</a>
               </li>
             ))}
         </ul>
@@ -31,13 +31,13 @@ export const Navbar = () => {
         />
 
           {/* info de la navbar chica */}
-              <div className={`${!toggle ? 'hidden' : 'flex'} p-6 bg-black absolute top-20 right-4 mx-4 my-2 min-w-[340px] rounded-xl sidebar z-10`}>
+              <div className={`${!toggle ? 'hidden' : 'flex'} p-6 bg-[#0d2f3f] absolute top-20 mx-2 my-2 min-w-[340px] rounded-xl sidebar z-10`}>
               <ul className="list-none flex justify-end items-center flex-1 flex-col">
             {navLinks.map((nav, index) => (
               <li
                 key={nav.id}
                 className={`font-roboto font-semibold cursor-pointer text-[16px] ${
-                  active === nav.title ? "text-white" : "text-white"
+                  active === nav.title ? "text-white" : "text-[#f8f7f1]"
                 } ${index === navLinks.length - 1 ? "mb-0" : "mb-4"}`}
                 onClick={() => setActive(nav.title)}
               >

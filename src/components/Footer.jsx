@@ -15,15 +15,15 @@ export const Footer = () => {
                 <span className={`sm:mt-20 sm:ml-12 ${styles.primaryText}`}>Start by <a href="mailto:curiagus99@gmail.com" className='text-[#ffa500] underline font-semibold'>saiying hi</a></span>
             </div>
 
-            <div className='invisible sm:visible sm:col-start-3 sm:row-start-1 sm:row-span-2 sm:mt-20 sm:ml-12'>
+            <div className='invisible sm:visible sm:col-start-3 sm:row-start-1 sm:row-span-2 sm:mt-32 sm:ml-12'>
               <span className={`sm:text-2xl sm:font-semibold sm:text-[#0d2f3f]`}>
                 Information
               </span>
-            <div>
+            <div className='sm:mt-4'>
                 <ul>
                   {information.map((list) => (
-                    <li className='sm:pt-8 sm:text-[#0d2f3f]'>
-                     <a href={list.id} className='sm:text-xl'>{list.title}</a>
+                    <li className='sm:pt-8 sm:text-[#0d2f3f]' key={list.id}>
+                     <a href={`#${list.href}`} className='sm:text-xl' >{list.title}</a>
                     </li>
                   ))}
                 </ul>
