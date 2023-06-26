@@ -13,7 +13,7 @@ export const Footer = () => {
             </div>
             
             <div className='text-center mx-12 sm:col-start-1 sm:col-span-2 sm:text-start sm:mb-12 sm:ml-12'>
-                <span className={`sm:mt-20 sm:ml-12 ${styles.primaryText}`}>Start by <a href="mailto:curiagus99@gmail.com" className='text-[#ffa500] underline font-semibold' id='contact' >saiying hi</a></span>
+                <span className={`sm:mt-20 sm:ml-12 ${styles.primaryText}`}>Start by <a href="mailto:curiagus99@gmail.com" className='text-[#ffa500] underline font-semibold' id='contact' >saying hi</a></span>
             </div>
 
             <div className='invisible sm:visible sm:col-start-3 sm:row-start-1 sm:row-span-2 sm:mt-32 sm:ml-12'>
