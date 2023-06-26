@@ -7,6 +7,7 @@ import hoobank from './hoobank.png';
 import fiambreria from './fiambreria.png';
 import menu from './menu.svg';
 import close from './close.svg';
+import arrow from './arrow.svg';
 
 
 export {
@@ -19,4 +20,5 @@ export {
     fiambreria,
     menu,
     close,
+    arrow,
 };

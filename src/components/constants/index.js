@@ -13,6 +13,10 @@ export const navLinks=[
         id: "languages",
         title: "LANGUAGES",
       },
+      {
+        id: 'contact',
+        title: 'CONTACT'
+      }
 ]
 
 export const myWork=[

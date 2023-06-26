@@ -26,7 +26,7 @@ export const Languages = () => {
             </div>
 
             <div className='flex sm:flex sm:col-start-4 sm:col-span-2'>
-                <span className='text-primary text-xl mt-6 leading-loose mx-4 font-semibold sm:text-primary sm:text-xl sm:mt-6 sm:leading-loose sm:my-4 sm:mt-12 sm:px-12 sm:pt-12 sm:text-center sm:font-semibold'>
+                <span className='text-primary text-xl mt-6 leading-loose mx-4 font-medium sm:text-primary sm:text-xl sm:mt-6 sm:leading-loose sm:my-4 sm:mt-12 sm:px-12 sm:pt-12 sm:text-center sm:font-semibold'>
                 These are the design tools and languages ​​that I know.
                 In the programming area, I prefer to work with react, but I am willing to learn and use the framework that is assigned to me.
                 In the design area I work with AdobeXD, Figma together with editing programs such as Illustrator and Photoshop.

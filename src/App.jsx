@@ -45,7 +45,6 @@ export const App = () => {
         </div>
       </div>
 
-
     </div>
   )
 }

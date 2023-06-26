@@ -15,7 +15,7 @@ export const Me = () => {
 
             </div>
             <div className= {`${styles.animationRight} mx-4 my-12 text-center sm:col-start-2 sm:text-center sm:mt-12 sm:my-4`}>
-              <span className='text-xl text-primary leading-loose font-semibold px-4 text-start sm:text-primary sm:text-xl sm:col-start-2 sm:mt-6 sm:leading-loose sm:pt-12 sm:font-semibold '>
+              <span className='text-xl text-primary leading-loose font-medium px-4 text-start sm:text-primary sm:text-xl sm:col-start-2 sm:mt-6 sm:leading-loose sm:pt-12 sm:font-semibold '>
                   I am a full stack developer graduated in April 2022, having completed 212 hours of study at one of the most important universities in Argentina and Latam, in collaboration with MundosE IT school.
                   In the FS area, I prefer front end development, which I have been studying and using since 2020.
                   I am also studying UX/UI design to add experience and professionalism to my knowledge as a front end developer.
