@@ -1,8 +1,9 @@
 import React from 'react'
 import styles from '../style'
-import { hoobank, fiambreria } from '../assets'
+import { hoobank,fiambrerianext } from '../assets'
 
 export const Portfolio = () => {
+  const githubRepo = 'https://github.com/CuriNsco/next-ecommerce'
   return (
     <section>
       <div className='flex flex-col justify-center text-center bg-[#f8f7f1] sm:flex sm:justify-center sm:flex-col sm:text-center'>
@@ -20,7 +21,9 @@ export const Portfolio = () => {
       </div>
 
       <div className={styles.workSize}>
-        <img src={fiambreria} alt="fiambreia" className={`rounded rounded-2xl ${styles.hoverImage}`}/>
+        <a href={githubRepo} target='_blank' rel='noopener noreferrer'>
+        <img src={fiambrerianext} alt="fiambreia" className={`rounded rounded-2xl ${styles.hoverImage}`}/>
+        </a>
       </div>
 
       </div>

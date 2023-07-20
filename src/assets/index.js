@@ -8,6 +8,7 @@ import fiambreria from './fiambreria.png';
 import menu from './menu.svg';
 import close from './close.svg';
 import arrow from './arrow.svg';
+import fiambrerianext from './fiambrerianext.png';
 
 
 export {
@@ -21,4 +22,5 @@ export {
     menu,
     close,
     arrow,
+    fiambrerianext ,
 };
