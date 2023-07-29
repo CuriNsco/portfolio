@@ -9,6 +9,7 @@ import menu from './menu.svg';
 import close from './close.svg';
 import arrow from './arrow.svg';
 import fiambrerianext from './fiambrerianext.png';
+import carshop from './foto carshop.png';
 
 
 export {
@@ -22,5 +23,6 @@ export {
     menu,
     close,
     arrow,
-    fiambrerianext ,
+    fiambrerianext,
+    carshop,
 };
